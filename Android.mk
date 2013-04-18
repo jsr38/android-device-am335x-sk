@@ -20,7 +20,7 @@
 # to only building on ARM if they include assembly. Individual makefiles
 # are responsible for having their own logic, for fine-grained control.
 
-ifeq (panda,$(TARGET_DEVICE))
+ifeq (ti-am335x-sk,$(TARGET_DEVICE))
 LOCAL_PATH := $(call my-dir)
 
 # if some modules are built directly from this directory (not subdirectories),
